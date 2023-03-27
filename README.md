@@ -26,7 +26,7 @@ And of course, different hardware will require different configs. While I can't 
 
 >A case with different types or number of ports, which will require modifying the USB map. Guide: https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit
 
->You shouldn't need any new kexts related to USB and Bluetooth, but I'm pretty sure you need to install Windows or linux on a separate partition, then run SSDTime to compile all the SSDTs related to USB - I needed to do that to get USB working on my hack.
+>If you know the USB map is good and USB / Bluetooth still isn't working, you shouldn't need any new kexts related to USB and Bluetooth. I'm pretty sure you need to install Windows or linux on a separate partition, then run SSDTime to compile all the SSDTs related to USB.
 
 >A processor with a different iGPU model, guide: https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/
 
