@@ -14,7 +14,7 @@ Configured for this hardware:
 
 Some troubleshooting and manual editing may be required for software:
 
->A different version of macOS than Catalina. I doubt much configuration will be needed, but it is required, so follow this guide: https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html
+>If you want to run a different version of macOS than Catalina, I doubt much configuration will be needed, but it is required, so follow this guide: https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html
 
 >Because this EFI is using the Release version of Opencore and its kexts, you may need to swap everything for their debug counterparts.
 
