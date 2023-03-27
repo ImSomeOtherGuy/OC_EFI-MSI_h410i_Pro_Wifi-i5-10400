@@ -22,7 +22,7 @@ Some troubleshooting and manual editing may be required for software:
 
 And of course, different hardware will require different configs. While I can't cover everything, here's some common changes to your system that may require changing the EFI:
 
->Changing the System product name to something else, the current one is good for my hardware but may need to be changed for you.
+>Changing the System product name to something else, the current one works for me but may need to be changed for the version of macOS or the hardware being run.
 
 >A case with different ports, which will require modifying the USB map. You shouldn't need any new kexts, but I'm pretty sure you need to install Windows or linux, then run SSDTime to compile the SSDTs related to USB. Guide: https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit
 
