@@ -18,9 +18,9 @@ Some troubleshooting and manual editing may be required for software:
 
 >Because this EFI is using the Release version of Opencore and its kexts, you may need to swap everything for their debug counterparts.
 
-And of course, different hardware will require different configs. While I can't cover everything, here's some common changes to your system that may require changing the EFI:
-
 >Changing the Serial Number, Board serial, Apple ROM, and GUID (**REQUIRED**)
+
+And of course, different hardware will require different configs. While I can't cover everything, here's some common changes to your system that may require changing the EFI:
 
 >Changing the System product name to something else, the current one is good for my hardware but may need to be changed for you.
 
