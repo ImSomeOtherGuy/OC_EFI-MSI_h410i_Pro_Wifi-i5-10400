@@ -20,11 +20,13 @@ Some troubleshooting and manual editing may be required for software:
 
 >Changing the Serial Number, Board serial, Apple ROM, and GUID (**REQUIRED**)
 
-And of course, different hardware will require different configs. While I can't cover everything, here's some common changes to your system that may require changing the EFI:
-
 >Changing the System product name to something else, the current one works for me but may need to be changed for the version of macOS or the hardware being used by you.
 
->A case with different ports, which will require modifying the USB map. You shouldn't need any new kexts, but I'm pretty sure you need to install Windows or linux, then run SSDTime to compile the SSDTs related to USB. Guide: https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit
+And of course, different hardware will require different configs. While I can't cover everything, here's some common changes to your system that may require changing the EFI:
+
+>A case with different types or number of ports, which will require modifying the USB map. Guide: https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit
+
+>You shouldn't need any new kexts related to USB and Bluetooth, but I'm pretty sure you need to install Windows or linux on a separate partition, then run SSDTime to compile all the SSDTs related to USB - I needed to do that to get USB working on my hack.
 
 >A processor with a different iGPU model, guide: https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/
 
