@@ -39,4 +39,4 @@ There are a few minor issues with this EFI. I probably won't fix them because I 
 
 
 # My BIOS Settings
->going to write soon
+>The settings I used are all the ones used in Dortania's guide. Not all the settings listed I found, but turn on and off the ones you can and you should be fine. Link: https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings
