@@ -1,5 +1,7 @@
 # Opencore EFI for an MSI H410i Pro Wifi hackintosh, which runs macOS 10.15 (Catalina)
 
+(Check the releases for the actual files)
+
 Configured for this hardware:
 
 >MSI h410i Pro Wifi
